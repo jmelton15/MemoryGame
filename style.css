@@ -1,0 +1,33 @@
+#game div {
+  border: 1px solid black;
+  width: 80%;
+  height: 100px;
+  margin: 10px;
+}
+#game {
+  border: 3px solid black;
+  width:100%;
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-column-gap: 0rem;
+}
+.button-section {
+  margin-top:20px;
+  margin-left:20px;
+}
+.button-section .start-button {
+  margin-right:20px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #game div {
+    border: 1px solid black;
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+  }
+  #game {
+    border: 3px solid black;
+    display:grid;
+    grid-template-columns: 50% 50%;
+  }
+}
